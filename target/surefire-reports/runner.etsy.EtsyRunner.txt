@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: runner.etsy.EtsyRunner
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 26.155 s <<< FAILURE! - in runner.etsy.EtsyRunner
+Validation of New Product Creation #3(Validation of Products Page)  Time elapsed: 6.463 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#ctl00_MainContent_fmwOrder_ddlProduct"}
+  (Session info: chrome=89.0.4389.82)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Colpons-MacBook-Pro.local', ip: 'fe80:0:0:0:1cc2:3fe9:7461:7a31%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.82, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /var/folders/zb/n0n4ykbn5rb...}, goog:chromeOptions: {debuggerAddress: localhost:50000}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 66ca6a79c99920f095007c6fcee17942
+*** Element info: {Using=id, value=ctl00_MainContent_fmwOrder_ddlProduct}
+
